@@ -6,33 +6,58 @@ import Footer from "../components/common/Footer";
 import Features from "../components/core/homepage/Features";
 import Culture from "../components/core/homepage/Culture";
 
+import img4 from "../assets/24.jpg";
+import img6 from "../assets/26.jpg";
+import img7 from "../assets/27.jpg";
+import img8 from "../assets/28.jpg";
+
 const slides = [
   {
-    image:
-      "https://doublehiranoil.in/wp-content/uploads/2023/04/Double-Hiran-Blog-Why-Kachi-Ghani-Mustard-Oil-Is-Better-Than-Refined-Oil.jpeg",
+    image: img4,
+  },
+
+  {
+    image: img6,
   },
   {
-    image:
-      "https://newspaperads.ads2publish.com/wp-content/uploads/2017/10/saloni-kachchi-ghani-pure-mustard-oil-ad-dainik-jagran-agra-21-10-2017.png",
+    image: img7,
   },
   {
-    image:
-      "https://doublehiranoil.in/wp-content/uploads/2023/04/Double-Hiran-Blog-Why-Kachi-Ghani-Mustard-Oil-Is-Better-Than-Refined-Oil.jpeg",
+    image: img8,
   },
+
   {
-    image:
-      "https://newspaperads.ads2publish.com/wp-content/uploads/2017/10/saloni-kachchi-ghani-pure-mustard-oil-ad-dainik-jagran-agra-21-10-2017.png",
+    image: img4,
   },
+
   {
-    image:
-      "https://doublehiranoil.in/wp-content/uploads/2023/04/Double-Hiran-Blog-Why-Kachi-Ghani-Mustard-Oil-Is-Better-Than-Refined-Oil.jpeg",
-  },
-  {
-    image:
-      "https://newspaperads.ads2publish.com/wp-content/uploads/2017/10/saloni-kachchi-ghani-pure-mustard-oil-ad-dainik-jagran-agra-21-10-2017.png",
+    image: img6,
   },
 ];
 
+export const all = [
+  {
+    image: img4,
+  },
+
+  {
+    image: img6,
+  },
+  {
+    image: img7,
+  },
+  {
+    image: img8,
+  },
+
+  {
+    image: img4,
+  },
+
+  {
+    image: img6,
+  },
+];
 const Home = () => {
   return (
     <>
@@ -42,7 +67,7 @@ const Home = () => {
       <br />
       <br />
       <Features />
-      <ProductSlidebar slides={slides} />
+      <ProductSlidebar slides={all} />
       <Culture />
       <Footer />
     </>

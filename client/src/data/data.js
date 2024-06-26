@@ -8,7 +8,14 @@ import third from "../assets/3.png";
 import { HiThumbUp } from "react-icons/hi";
 import { MdAutoGraph } from "react-icons/md";
 import { MdOutlineEmojiPeople } from "react-icons/md";
-
+import img1 from "../assets/21.jpg"
+import img2 from "../assets/22.jpg"
+import img3 from "../assets/23.jpg"
+import img4 from "../assets/24.jpg"
+import img5 from "../assets/25.jpg"
+import img6 from "../assets/26.jpg"
+import img7 from "../assets/27.jpg"
+import img8 from "../assets/28.jpg"
 
 
 export const adminCardData = [
@@ -72,114 +79,141 @@ export const dashboardCard = [
 
 export const all = [
     {
-        image: "https://i.ibb.co/yFb8D9N/Is-Vegetable-Oil-Healthy-Heres-What-a-Dietitian-Has-to-Say-d2d6b4bc36c64a979751f42cbecd594b.jpg",
+        image: img1,
         title: "Test1"
     },
     {
-        image: "https://i.ibb.co/yFb8D9N/Is-Vegetable-Oil-Healthy-Heres-What-a-Dietitian-Has-to-Say-d2d6b4bc36c64a979751f42cbecd594b.jpg",
+        image: img2,
         title: "Test2"
     },
+
     {
-        image: "https://i.ibb.co/yFb8D9N/Is-Vegetable-Oil-Healthy-Heres-What-a-Dietitian-Has-to-Say-d2d6b4bc36c64a979751f42cbecd594b.jpg",
+        image: img4,
+        title: "Test3"
+    },
+
+    {
+        image: img6,
+        title: "Test3"
+    },
+    {
+        image: img7,
+        title: "Test3"
+    },
+    {
+        image: img8,
+        title: "Test3"
+    },
+    {
+        image: img5,
+        title: "Test3"
+    },
+    {
+        image: img3,
         title: "Test3"
     },
 ]
 export const sarso = [
     {
-        image: "https://i.ibb.co/yFb8D9N/Is-Vegetable-Oil-Healthy-Heres-What-a-Dietitian-Has-to-Say-d2d6b4bc36c64a979751f42cbecd594b.jpg",
-        title: "sarso1"
+        image: img1,
+        title: "Pure Sarso Oil"
     },
     {
-        image: "https://i.ibb.co/yFb8D9N/Is-Vegetable-Oil-Healthy-Heres-What-a-Dietitian-Has-to-Say-d2d6b4bc36c64a979751f42cbecd594b.jpg",
-        title: "sarso1"
+        image: img2,
+        title: "Pure Sarso Oil"
+
     },
     {
-        image: "https://i.ibb.co/yFb8D9N/Is-Vegetable-Oil-Healthy-Heres-What-a-Dietitian-Has-to-Say-d2d6b4bc36c64a979751f42cbecd594b.jpg",
-        title: "sarso1"
+        image: img6,
+        title: "Pure Sarso Oil"
+
     },
+
 ]
 export const til = [
     {
-        image: "https://i.ibb.co/yFb8D9N/Is-Vegetable-Oil-Healthy-Heres-What-a-Dietitian-Has-to-Say-d2d6b4bc36c64a979751f42cbecd594b.jpg",
-        title: "til1"
+        image: img4,
+        title: "Pure Til Oil"
     },
     {
-        image: "https://i.ibb.co/yFb8D9N/Is-Vegetable-Oil-Healthy-Heres-What-a-Dietitian-Has-to-Say-d2d6b4bc36c64a979751f42cbecd594b.jpg",
-        title: "til2"
+        image: img1,
+        title: "Pure Til Oil"
+
     },
     {
-        image: "https://i.ibb.co/yFb8D9N/Is-Vegetable-Oil-Healthy-Heres-What-a-Dietitian-Has-to-Say-d2d6b4bc36c64a979751f42cbecd594b.jpg",
-        title: "til3"
+        image: img6,
+        title: "Pure Til Oil"
+
     },
 ]
 export const narial = [
     {
-        image: "https://i.ibb.co/yFb8D9N/Is-Vegetable-Oil-Healthy-Heres-What-a-Dietitian-Has-to-Say-d2d6b4bc36c64a979751f42cbecd594b.jpg",
-        title: "narial"
+        image: img1,
+        title: "Pure Narial Oil"
     },
     {
-        image: "https://i.ibb.co/yFb8D9N/Is-Vegetable-Oil-Healthy-Heres-What-a-Dietitian-Has-to-Say-d2d6b4bc36c64a979751f42cbecd594b.jpg",
-        title: "narial"
+        image: img7,
+        title: "Pure Narial Oil"
     },
     {
-        image: "https://i.ibb.co/yFb8D9N/Is-Vegetable-Oil-Healthy-Heres-What-a-Dietitian-Has-to-Say-d2d6b4bc36c64a979751f42cbecd594b.jpg",
-        title: "narial"
+        image: img8,
+        title: "Pure Narial Oil"
     },
 ]
 export const badam = [
     {
-        image: "https://i.ibb.co/yFb8D9N/Is-Vegetable-Oil-Healthy-Heres-What-a-Dietitian-Has-to-Say-d2d6b4bc36c64a979751f42cbecd594b.jpg",
-        title: "badam"
+        image: img2,
+        title: "Pure Badam Oil"
     },
     {
-        image: "https://i.ibb.co/yFb8D9N/Is-Vegetable-Oil-Healthy-Heres-What-a-Dietitian-Has-to-Say-d2d6b4bc36c64a979751f42cbecd594b.jpg",
-        title: "badam"
+        image: img6,
+        title: "Pure Badam Oil"
     },
     {
-        image: "https://i.ibb.co/yFb8D9N/Is-Vegetable-Oil-Healthy-Heres-What-a-Dietitian-Has-to-Say-d2d6b4bc36c64a979751f42cbecd594b.jpg",
-        title: "badam"
+        image: img4,
+        title: "Pure Badam Oil"
     },
 ]
 export const kalongi = [
     {
-        image: "https://i.ibb.co/yFb8D9N/Is-Vegetable-Oil-Healthy-Heres-What-a-Dietitian-Has-to-Say-d2d6b4bc36c64a979751f42cbecd594b.jpg",
-        title: "kalongi"
+        image: img8,
+        title: "Pure Kalongi Oil"
     },
     {
-        image: "https://i.ibb.co/yFb8D9N/Is-Vegetable-Oil-Healthy-Heres-What-a-Dietitian-Has-to-Say-d2d6b4bc36c64a979751f42cbecd594b.jpg",
-        title: "kalongi"
+        image: img6,
+        title: "Pure Kalongi Oil"
     },
     {
-        image: "https://i.ibb.co/yFb8D9N/Is-Vegetable-Oil-Healthy-Heres-What-a-Dietitian-Has-to-Say-d2d6b4bc36c64a979751f42cbecd594b.jpg",
-        title: "kalongi"
+        image: img7,
+        title: "Pure Kalongi Oil"
     },
 ]
 export const aslee = [
     {
-        image: "https://i.ibb.co/yFb8D9N/Is-Vegetable-Oil-Healthy-Heres-What-a-Dietitian-Has-to-Say-d2d6b4bc36c64a979751f42cbecd594b.jpg",
-        title: "aslee"
+        image: img1,
+        title: "Pure Aslee Oil"
     },
     {
-        image: "https://i.ibb.co/yFb8D9N/Is-Vegetable-Oil-Healthy-Heres-What-a-Dietitian-Has-to-Say-d2d6b4bc36c64a979751f42cbecd594b.jpg",
-        title: "aslee"
+        image: img2,
+        title: "Pure Aslee Oil"
     },
     {
-        image: "https://i.ibb.co/yFb8D9N/Is-Vegetable-Oil-Healthy-Heres-What-a-Dietitian-Has-to-Say-d2d6b4bc36c64a979751f42cbecd594b.jpg",
-        title: "aslee"
+        image: img4,
+        title: "Pure Aslee Oil"
     },
 ]
 export const mungfali = [
     {
-        image: "https://i.ibb.co/yFb8D9N/Is-Vegetable-Oil-Healthy-Heres-What-a-Dietitian-Has-to-Say-d2d6b4bc36c64a979751f42cbecd594b.jpg",
-        title: "mungfali"
+        image: img6,
+        title: "Pure Mungfali oil"
     },
     {
-        image: "https://i.ibb.co/yFb8D9N/Is-Vegetable-Oil-Healthy-Heres-What-a-Dietitian-Has-to-Say-d2d6b4bc36c64a979751f42cbecd594b.jpg",
-        title: "mungfali2"
+        image: img7,
+        title: "Pure Mungfali oil"
     },
     {
-        image: "https://i.ibb.co/yFb8D9N/Is-Vegetable-Oil-Healthy-Heres-What-a-Dietitian-Has-to-Say-d2d6b4bc36c64a979751f42cbecd594b.jpg",
-        title: "mungfali3"
+        image: img8,
+        title: "Pure Mungfali oil"
     },
 ]
 

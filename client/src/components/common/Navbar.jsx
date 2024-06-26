@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import { Link, matchPath, useLocation } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
+import logo from "../../assets/21.jpg";
 
 const Navbar = () => {
   const location = useLocation();
@@ -23,12 +24,8 @@ const Navbar = () => {
               to="/"
               className="flex items-center py-5 px-2 hover:text-gray-300 transition duration-300"
             >
-              <div className=" w-[70px] h-[70px] lg:w-16 lg:h-16 ">
-                <img
-                  src="https://i.ibb.co/6wtWwqk/nechro-pure-farm-oil-m-p-nagar-bhopal-offset-printers-li1sf7va5d-250.webp"
-                  alt=""
-                  className=" object-cover "
-                />
+              <div className=" w-[70px] h-[70px] lg:w-24 lg:h-16 ">
+                <img src={logo} alt="not found" className="object-cover" />
               </div>
             </Link>
           </div>
@@ -88,12 +85,8 @@ const Navbar = () => {
             isOpen ? "translate-x-0" : "-translate-x-full"
           } transition-transform duration-300 ease-in-out md:hidden z-50`}
         >
-          <div className=" w-[70px] h-[70px] lg:w-16 lg:h-16 flex m-auto mt-3 mb-8 ">
-            <img
-              src="https://i.ibb.co/6wtWwqk/nechro-pure-farm-oil-m-p-nagar-bhopal-offset-printers-li1sf7va5d-250.webp"
-              alt=""
-              className=" object-cover "
-            />
+          <div className=" w-[70px] h-[70px] lg:w-24 lg:h-20 flex m-auto mt-3 mb-8 ">
+            <img src={logo} alt="not found" className="object-cover" />
           </div>
           <div className="flex flex-col p-4 space-y-4">
             <Link

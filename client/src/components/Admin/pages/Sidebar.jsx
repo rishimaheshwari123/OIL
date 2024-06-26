@@ -8,6 +8,7 @@ import { FaHome } from "react-icons/fa";
 import { useDispatch, useSelector } from "react-redux";
 import { setToken, setUser } from "../../../redux/authSlice";
 import { FcBullish, FcPlus, FcGallery, FcPieChart } from "react-icons/fc";
+import logo from "../../../assets/21.jpg";
 
 const Sidebar = () => {
   const [isCollapsed, setIsCollapsed] = useState(
@@ -62,7 +63,7 @@ const Sidebar = () => {
           } text-black font-bold text-xl`}
         >
           <img
-            src="https://i.ibb.co/6wtWwqk/nechro-pure-farm-oil-m-p-nagar-bhopal-offset-printers-li1sf7va5d-250.webp"
+            src={logo}
             alt=""
             className="w-[50px] h-[50px] lg:w-12 lg:h-12 object-cover rounded-full"
           />

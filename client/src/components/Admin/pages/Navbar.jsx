@@ -6,7 +6,7 @@ import { useLocation } from "react-router-dom";
 import { setToken, setUser } from "../../../redux/authSlice";
 import { useDispatch } from "react-redux";
 import { FcBullish, FcPlus, FcPieChart } from "react-icons/fc";
-
+import logo from "../../../assets/21.jpg";
 const Navbar = () => {
   const dispatch = useDispatch();
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
@@ -59,13 +59,8 @@ const Navbar = () => {
           </div>
           {/* Home/Dashboard text for larger devices */}
           <div className="text-black text-xl hidden md:block">{pageTitle}</div>
-          <div className=" w-[50px] h-[50px] lg:w-16 lg:h-16 ">
-            <img
-              src="https://i.ibb.co/6wtWwqk/nechro-pure-farm-oil-m-p-nagar-bhopal-offset-printers-li1sf7va5d-250.webp"
-              alt=""
-              className=" object-cover rounded-full"
-            />
-            <p className="text-black mt-5">LOGO</p>
+          <div className=" w-[70px] h-[70px] lg:w-24 lg:h-16 ">
+            <img src={logo} alt="not found" className="object-cover" />
           </div>
         </div>
       </nav>
@@ -85,7 +80,9 @@ const Navbar = () => {
         } md:hidden`}
       >
         <div className="flex justify-between items-center mb-8 -mt-2 gap-5">
-          <h2 className="text-lg font-bold">Logo</h2>
+          <div className=" w-[70px] h-[70px] lg:w-24 lg:h-16 ">
+            <img src={logo} alt="not found" className="object-cover" />
+          </div>
           <button onClick={closeSidebar} className="text-black md:hidden">
             <FaTimes className="text-2xl" />
           </button>

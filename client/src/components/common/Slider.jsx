@@ -14,8 +14,6 @@ import {
   Virtual,
   Controller,
 } from "swiper/modules";
-import "swiper/css";
-import "swiper/css/pagination";
 
 const Slider = ({ slides }) => {
   const [swiper, setSwiper] = useState(null);
@@ -34,8 +32,8 @@ const Slider = ({ slides }) => {
 
   return (
     <Swiper
-      spaceBetween={50}
-      slidesPerView={1}
+      spaceBetween={0} // Set spaceBetween to 0 to remove gaps
+      slidesPerView={2}
       onSwiper={setSwiper}
       modules={[
         Navigation,
@@ -61,16 +59,16 @@ const Slider = ({ slides }) => {
           <div className="relative">
             <img
               src={slide.image}
-              className=" object-cover w-full lg:w-full "
+              className="object-cover w-full lg:w-full"
               alt={`Slide ${index + 1}`}
             />
-            <div className="absolute left-10 top-1/2 transform -translate-y-1/2 lg:w-[40%] w-[80%]  bg-opacity-50 p-4 text-white">
+            <div className="absolute left-10 top-1/2 transform -translate-y-1/2 lg:w-[40%] w-[80%] bg-opacity-50 p-4 text-white">
               <div className="">
-                <h2 className="text-2xl  lg:text-4xl font-semibold  ">
+                <h2 className="text-2xl lg:text-4xl font-semibold">
                   {slide.title}
                 </h2>
                 <p className="mt-4 text-xl">{slide.desc}</p>
-                <button className=" hidden lg:block px-4 py-2 mt-8 bg-white text-black rounded-full ">
+                <button className="hidden lg:block px-4 py-2 mt-8 bg-white text-black rounded-full">
                   {slide.button}
                 </button>
               </div>
