@@ -26,7 +26,7 @@ const Features = () => {
               className={` font-bold text-xl ${
                 tabActive === "all"
                   ? "bg-pink-600 rounded-md px-4 py-2 text-white transition ease-in duration-500 "
-                  : " bg-gray-500 text-black px-4 py-2 rounded-md  transition ease-in duration-500"
+                  : " bg-gray-500 text-white px-4 py-2 rounded-md  transition ease-in duration-500"
               }`}
             >
               All
@@ -37,7 +37,7 @@ const Features = () => {
               className={` font-bold text-xl ${
                 tabActive === "mungfali"
                   ? "bg-pink-600 rounded-md px-4 py-2 text-white transition ease-in duration-500 "
-                  : " bg-gray-500 text-black px-4 py-2 rounded-md  transition ease-in duration-500"
+                  : "  text-white px-4 py-2 rounded-md  transition ease-in duration-500"
               }`}
             >
               मूंगफली
@@ -48,7 +48,7 @@ const Features = () => {
               className={` font-bold text-xl ${
                 tabActive === "sarso"
                   ? "bg-pink-600 rounded-md px-4 py-2 text-white transition ease-in duration-500 "
-                  : " bg-gray-500 text-black px-4 py-2 rounded-md  transition ease-in duration-500"
+                  : " bg-gray-500 text-white px-4 py-2 rounded-md  transition ease-in duration-500"
               }`}
             >
               सरसो
@@ -58,7 +58,7 @@ const Features = () => {
               className={` font-bold text-xl ${
                 tabActive === "til"
                   ? "bg-pink-600 rounded-md px-4 py-2 text-white transition ease-in duration-500 "
-                  : " bg-gray-500 text-black px-4 py-2 rounded-md  transition ease-in duration-500"
+                  : " bg-gray-500 text-white px-4 py-2 rounded-md  transition ease-in duration-500"
               }`}
             >
               तिल्ली
@@ -68,7 +68,7 @@ const Features = () => {
               className={` font-bold text-xl ${
                 tabActive === "narial"
                   ? "bg-pink-600 rounded-md px-4 py-2 text-white transition ease-in duration-500 "
-                  : " bg-gray-500 text-black px-4 py-2 rounded-md  transition ease-in duration-500"
+                  : " bg-gray-500 text-white px-4 py-2 rounded-md  transition ease-in duration-500"
               }`}
             >
               नारियल
@@ -78,17 +78,17 @@ const Features = () => {
               className={` font-bold text-xl ${
                 tabActive === "aslee"
                   ? "bg-pink-600 rounded-md px-4 py-2 text-white transition ease-in duration-500 "
-                  : " bg-gray-500 text-black px-4 py-2 rounded-md  transition ease-in duration-500"
+                  : " bg-gray-500 text-white px-4 py-2 rounded-md  transition ease-in duration-500"
               }`}
             >
-              असली
+              अलसी
             </button>
             <button
               onClick={() => handleTabChange("badam")}
               className={` font-bold text-xl ${
                 tabActive === "badam"
                   ? "bg-pink-600 rounded-md px-4 py-2 text-white transition ease-in duration-500 "
-                  : " bg-gray-500 text-black px-4 py-2 rounded-md  transition ease-in duration-500"
+                  : " bg-gray-500 text-white px-4 py-2 rounded-md  transition ease-in duration-500"
               }`}
             >
               बादाम
@@ -98,7 +98,7 @@ const Features = () => {
               className={` font-bold text-xl ${
                 tabActive === "kalongi"
                   ? "bg-pink-600 rounded-md px-4 py-2 text-white transition ease-in duration-500 "
-                  : " bg-gray-500 text-black px-4 py-2 rounded-md  transition ease-in duration-500"
+                  : " bg-gray-500 text-white px-4 py-2 rounded-md  transition ease-in duration-500"
               }`}
             >
               कलौंजी

@@ -65,7 +65,7 @@ const Slider = ({ slides }) => {
           <div className="relative">
             <img
               src={slide.image}
-              className="object-cover w-full lg:w-full"
+              className="object-cover w-full h-[70vh] lg:w-full"
               alt={`Slide ${index + 1}`}
             />
             <div className="absolute left-10 top-1/2 transform -translate-y-1/2 lg:w-[40%] w-[80%] bg-opacity-50 p-4 text-white">
